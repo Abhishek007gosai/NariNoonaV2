@@ -4,27 +4,27 @@ from logging.handlers import RotatingFileHandler
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
 PORT = '5010'
-OWNER_ID = 7156099919
+OWNER_ID = 8667251104
 
 MSG_EFFECT = 5046509860389126442
 
-SHORT_URL = "shrinkme.io" # shortner url 
-SHORT_API = "xxxxxxxxxxx45e6887xxxxxxxxxxx" # shortner API
-SHORT_TUT = "https://t.me/ANIME_X_FLEX/19" # shortner tutorial link
+SHORT_URL = "shortxlinks.com" # shortner url 
+SHORT_API = "64d631b036df348caab852591a09288cbf5b6809" # shortner API
+SHORT_TUT = "https://t.me/+HqbsczC1n4o0OGY1" # shortner tutorial link
 
 # Bot Configuration
-SESSION = "BotifyX-Botz"
-TOKEN = "82074727111:xxxxxxxxxxxxxxxxxx" # Bot token
-API_ID = "xxxxxx" # API ID
-API_HASH = "xxxxxxxxxxxxxxxxxx" # API HASH
+SESSION = "NariNoona"
+TOKEN = "8691693420:AAFh7uKq1WGnGuj6HFyexEtgdFz_kx1ruiw" # Bot token
+API_ID = "29245477" # API ID
+API_HASH = "0abc83883262245c90ca337b7a0375c4" # API HASH
 WORKERS = 5
 
-DB_URI = "" # MongoDB URI
-DB_NAME = "BotifyX-Filestore"
+DB_URI = "mongodb+srv://Kiraxsen4:hb4RyfM7ja5sxDeO@cluster0.dwoduv2.mongodb.net/" # MongoDB URI
+DB_NAME = "cluster0"
 
-FSUBS = [[-1003483476894, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1002369123167, True, 5]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL =  -1001753514086  # just put channel id dont add ""
+DB_CHANNEL =  -1002497924209  # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
@@ -33,10 +33,10 @@ DB_CHANNEL =  -1001753514086  # just put channel id dont add ""
 # Auto Delete Timer (seconds)
 AUTO_DEL = 300
 # Admin IDs
-ADMINS = [7156099919]
+ADMINS = [8667251104]
 # Bot Settings
 DISABLE_BTN = True
-PROTECT = True # For content protection stops message forwarding and copying from the bot and same goes for the screenshot
+PROTECT = False # For content protection stops message forwarding and copying from the bot and same goes for the screenshot
 
 # Messages Configuration
 MESSAGES = {
