@@ -80,7 +80,7 @@ async def start_command(client: Client, message: Message):
                             InlineKeyboardButton("✨ ᴄʟɪᴄᴋ ʜᴇʀᴇ ✨", url=unlock_link)
                         ],
                         [
-                            InlineKeyboardButton("• ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/ITSANIMEN")
+                            InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ •", url="https://t.me/EternalsHelplineBot")
                         ]
                     ])
                 )
@@ -106,7 +106,7 @@ async def start_command(client: Client, message: Message):
 
             short_photo = client.messages.get("SHORT_PIC", "")
             short_caption = client.messages.get("SHORT_MSG", "")
-            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/ANIME_X_FLEX/19")
+            tutorial_link = getattr(client, 'tutorial_link', "https://t.me/+HqbsczC1n4o0OGY1")
 
             await client.send_photo(
                 chat_id=message.chat.id,
@@ -114,14 +114,15 @@ async def start_command(client: Client, message: Message):
                 caption=short_caption,
                 reply_markup=InlineKeyboardMarkup([
                     [
-                        InlineKeyboardButton("• ᴏᴘᴇɴ ʟɪɴᴋ", url=short_link),
+                        InlineKeyboardButton("• ᴏᴘᴇɴ ʟɪɴᴋ", url=short_link)
+                    ],
+                    [
                         InlineKeyboardButton("ᴛᴜᴛᴏʀɪᴀʟ •", url=tutorial_link)
                     ],
                     [
-                        InlineKeyboardButton(" • ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ •", url="https://t.me/Premium_Fliix/21")
-                    ]
-                ])
-            )
+                        InlineKeyboardButton(" • sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ •", url="https://t.me/EternalsHelplineBot")
+                ]
+            ])
             return  # prevent sending actual files
 
         # 6. Decode and prepare file IDs
@@ -467,7 +468,7 @@ async def credit_plan(client: Client, message: Message):
         "» 120 credits : ₹220\n"
         "» 240 credits : ₹480</blockquote>\n"
         "━━━━━━━━━━━━━━━━━━━\n"
-        "<blockquote>✦ Contact @ITSANIMEN to Buy Credits</blockquote>"
+        "<blockquote>✦ Contact @EternalsHelplineBot to Buy Credits</blockquote>"
     )
 
     buttons = InlineKeyboardMarkup([
