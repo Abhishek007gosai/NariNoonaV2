@@ -3,7 +3,7 @@ from logging.handlers import RotatingFileHandler
 
 # Bot Configuration
 LOG_FILE_NAME = "bot.log"
-PORT = '5010'
+PORT = 5010
 OWNER_ID = 8667251104
 
 MSG_EFFECT = 5046509860389126442
@@ -15,7 +15,7 @@ SHORT_TUT = "https://t.me/+HqbsczC1n4o0OGY1" # shortner tutorial link
 # Bot Configuration
 SESSION = "NariNoona"
 TOKEN = "8691693420:AAFh7uKq1WGnGuj6HFyexEtgdFz_kx1ruiw" # Bot token
-API_ID = "29245477" # API ID
+API_ID = 29245477 # API ID
 API_HASH = "0abc83883262245c90ca337b7a0375c4" # API HASH
 WORKERS = 5
 
